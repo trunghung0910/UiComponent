@@ -1,0 +1,17 @@
+{
+    "aht_hung": {
+        "column": {
+            "hung_id": true,
+            "name": true,
+            "content": true,
+            "created_at": true
+        },
+        "index": {
+            "AHT_HUNG_NAME": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "AHT_HUNG_HUNG_ID": true
+        }
+    }
+}

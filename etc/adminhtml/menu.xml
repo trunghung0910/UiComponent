@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+        <menu>
+        <add id="AHT_Hung::hung" title="Hung" module="AHT_Hung" sortOrder="41" resource="AHT_Hung::hung"/>
+        <add id="AHT_Hung::index" title="Hung Listing" module="AHT_Hung" sortOrder="10" action="hung/post/index" resource="AHT_Hung::index" parent="AHT_Hung::hung"/>
+    </menu>
+</config>
